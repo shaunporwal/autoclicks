@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/autoclicks.iml" filepath="$PROJECT_DIR$/.idea/autoclicks.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/regreplace/.idea/regreplace.iml" filepath="$USER_HOME$/PycharmProjects/regreplace/.idea/regreplace.iml" />
     </modules>
   </component>
 </project>

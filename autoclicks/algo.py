@@ -7,7 +7,7 @@ from pynput.keyboard import Listener, KeyCode
 
 # TOGGLE_CLICKER_KEY = KeyCode(char="t")
 TOGGLE_MOVER_KEY = pynput.keyboard.KeyCode(char="m")
-# clicking = False
+clicking = False
 moving = False
 # mouse = Controller()
 
@@ -69,8 +69,6 @@ def run_clickmove(toggle_key: str = 'm',
 
     with Listener(on_press=_toggle_mover) as mover:
         mover.join()
-
-
 
 run_clickmove()
 
